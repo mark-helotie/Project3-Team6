@@ -13,10 +13,10 @@ Installing the latest versions of
 
 ## Authors
 
-- **Sebastian Alonso** - [Venerann](https://github.com/Venerann)
-- **Aimeé Galindo** - [aimeegalindo](https://github.com/aimeegalindo)
-- **Mark Helotie** - [mark-helotie](https://github.com/mark-helotie)
-- **Monila Khadka** - [monilakhadka](https://github.com/monilakhadka)
+- **Sebastian Alonso** - [[Github]](https://github.com/Venerann)
+- **Aimeé Galindo** - [[Github]](https://github.com/aimeegalindo)
+- **Mark Helotie** - [[Github]](https://github.com/mark-helotie)
+- **Monila Khadka** - [[Github]](https://github.com/monilakhadka)
 - **Marshall Rockafellow** - 
 
 -------------------------------------------------------------------------------------------------------
