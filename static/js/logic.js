@@ -266,7 +266,7 @@ city_data = [
   }).addTo(myMap);
   
   // Create a layer group for city markers.
-  const cityMarkerGroup = L.layerGroup().addTo(myMap);
+  var cityMarkerGroup = L.layerGroup().addTo(myMap);
   
   // Function to fetch events in a city using Ticketmaster API
   function getEventsInCity(id) {
