@@ -330,7 +330,7 @@ city_data = [
           getEventsInCity(city_data[i].id);
           
           // Add back the clicked city marker to the map.
-          eventMarkerGroupMarkerGroup.addLayer(marker);
+          eventMarkerGroup.addLayer(marker);
   
           
           
