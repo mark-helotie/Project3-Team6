@@ -16,7 +16,7 @@ Installing the latest versions of
 - **Sebastian Alonso** - [[Github]](https://github.com/Venerann)
 - **Aimeé Galindo** - [[Github]](https://github.com/aimeegalindo)
 - **Mark Helotie** - [[Github]](https://github.com/mark-helotie)
-- **Monila Khadka** - [[Github]](https://github.com/monilakhadka)
+- **Monila Khadka** - [[[Github]](https://github.com/mxk105620)
 - **Marshal Rockafellow** - [[Github]](https://github.com/mrockafe)
 
 -------------------------------------------------------------------------------------------------------
