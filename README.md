@@ -17,7 +17,7 @@ Installing the latest versions of
 - **Aimeé Galindo** - [[Github]](https://github.com/aimeegalindo)
 - **Mark Helotie** - [[Github]](https://github.com/mark-helotie)
 - **Monila Khadka** - [[Github]](https://github.com/monilakhadka)
-- **Marshall Rockafellow** - 
+- **Marshal Rockafellow** - [[Github]](https://github.com/mrockafe)
 
 -------------------------------------------------------------------------------------------------------
 
