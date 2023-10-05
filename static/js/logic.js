@@ -325,7 +325,11 @@ city_data = [
           eventMarkerGroup.clearLayers();
   
           myMap.setView([city_data[i].lat, city_data[i].lng], 9)
-  
+          
+          eventMarkerGroup.eachLayer(function (layer) {
+              if (layer !== myMap) {
+                  eventMarkerGroup.removeLayer(layer);
+              }
           });
   
           eventMarkerGroup.clearLayers();
@@ -335,8 +339,6 @@ city_data = [
           
           // Add back the clicked city marker to the map.
           eventMarkerGroupMarkerGroup.addLayer(marker);
-  
-          
           
       });
-  }
+    };
