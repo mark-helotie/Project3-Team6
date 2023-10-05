@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ticketmaster City Markers</title>
     
     <!-- Leaflet CSS -->
@@ -15,16 +17,21 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 
+    <!-- Market City data array -->
+    <script type="text/javascript" src="static/js/array.js"></script>
+
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
 </head>
+
 <body>
-    <p id="location"><center>Please Click on one of the Markers below</center></p>
+    <p id="location"><h3><center>Please Choose Which City You Want Event Info For:</center></h3></p>
     <div id="map"></div>
     <div id="events"></div>
 
-
-    <!-- Our JavaScript -->
+    <!-- Logic JavaScript -->
     <script type="text/javascript" src="static/js/logic.js"></script>
+
 </body>
+
 </html>
