@@ -15,32 +15,16 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 
-    <!-- Use D3 JS library to import CSV -->
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/d3-fetch@3"></script> -->
-
-    <!-- <script src="static/js/jquery-csv.js"></script> -->
-
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
 </head>
-
 <body>
-    <p id="location"><center>Please Choose Your Travel Destination</center></p>
+    <p id="location"><center>Please Click on one of the Markers below</center></p>
     <div id="map"></div>
     <div id="events"></div>
 
-    <!-- Dropdown container -->
-    <div id="venueDropdown" class="dropdown">
-        <button onclick="toggleDropdown()">Select Venue</button>
-        <div id="venueDropdownContent" class="dropdown-content">
-            <!-- Dropdown content will be added dynamically -->
-        </div>
-    </div>
 
     <!-- Our JavaScript -->
     <script type="text/javascript" src="static/js/logic.js"></script>
-
 </body>
-
 </html>
