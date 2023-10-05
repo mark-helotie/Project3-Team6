@@ -257,7 +257,7 @@ city_data = [
   // Create a map object.
   let myMap = L.map("map", {
       center: [37.09, -95.71],
-      zoom: 5
+      zoom: 4
   });
   
   // Add a tile layer.
@@ -266,7 +266,7 @@ city_data = [
   }).addTo(myMap);
   
   // Create a layer group for city markers.
-  var cityMarkerGroup = L.layerGroup().addTo(myMap);
+  const cityMarkerGroup = L.layerGroup().addTo(myMap);
   
   // Function to fetch events in a city using Ticketmaster API
   function getEventsInCity(id) {
@@ -280,17 +280,17 @@ city_data = [
           .then(data => {
   
               // Process the data and display event details on the map as markers
-            var events = data._embedded.events;
+              var events = data._embedded.events;
               for (let i = 0; i < events.length; i++) {
-                var event = events[i];
-                var eventName = event.name;
-                var eventVenue = event._embedded.venues[0].name;
-                var eventDate = event.dates.start.localDate;
-                var eventLat = event._embedded.venues[0].location.latitude;
-                var eventLng = event._embedded.venues[0].location.longitude;
+                  var event = events[i];
+                  var eventName = event.name;
+                  var eventVenue = event._embedded.venues[0].name;
+                  var eventDate = event.dates.start.localDate;
+                  var eventLat = event._embedded.venues[0].location.latitude;
+                  var eventLng = event._embedded.venues[0].location.longitude;
   
                   // Create a marker for the event
-                var eventMarker = L.marker([eventLat, eventLng]).addTo(myMap);
+                  var eventMarker = L.marker([eventLat, eventLng]).addTo(myMap);
   
                   // Add a popup with event details to the marker
                   eventMarker.bindPopup(`<h1>${eventName}</h1><p>Venue: ${eventVenue}</p><p>Date: ${eventDate}</p>`);
@@ -309,7 +309,7 @@ city_data = [
   
   // Loop through the cities array and create one marker for each city object.
   for (let i = 0; i < city_data.length; i++) {
-    var marker = L.marker([city_data[i].lat, city_data[i].lng], {
+      const marker = L.marker([city_data[i].lat, city_data[i].lng], {
           icon: L.divIcon({ className: 'custom-div-icon' })
       }).addTo(cityMarkerGroup);
   
@@ -325,20 +325,14 @@ city_data = [
           eventMarkerGroup.clearLayers();
   
           myMap.setView([city_data[i].lat, city_data[i].lng], 9)
-          
-          eventMarkerGroup.eachLayer(function (layer) {
-              if (layer !== myMap) {
-                  eventMarkerGroup.removeLayer(layer);
-              }
-          });
-  
-          eventMarkerGroup.clearLayers();
   
          // Call the function to fetch and display events
           getEventsInCity(city_data[i].id);
           
           // Add back the clicked city marker to the map.
           eventMarkerGroupMarkerGroup.addLayer(marker);
+  
+          
           
       });
-    };
+  }
