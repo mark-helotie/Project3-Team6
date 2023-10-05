@@ -1,8 +1,12 @@
 # Events in the US
 
-In this project, we have created an interactive map that allows users to explore a list of entertainment events (spots, concerts, etc.) based on selected cities/markets in the United States.
+In this project, we have created an interactive map that allows users to explore a list of entertainment events (sports, concerts, etc.) provided by Ticketmaster based on selected cities/markets in the United States.
 
-## Getting Started
+## Quick View
+
+[Click Here to View](https://mark-helotie.github.io/Project3-Team6/)
+
+## Advanced View
 
 To get started, follow these steps:
 
@@ -19,8 +23,8 @@ git clone https://github.com/mark-helotie/Project3-Team6.git
 - Hover over a marker to see the city/market name.
 - Click the market to zoom in and view the events in that area.
 - Click on the event to see the data fetched on that event.
-- Events fectched live via the TicketMaster API by market id
-- Click the button in the top right to change the map view
+- Events fetched live via the TicketMaster API by market id.
+- Click the button in the top right to change the map view.
 
 ## Built With
 
