@@ -2,6 +2,10 @@
 
 In this project, we created an interactive map that allows users to explore a list of entertainment events (sports, music concerts, etc. provided by Ticketmaster) based on selected cities/markets in the United States.
 
+## NOTE: Our project is 100% hosted here on the web, not just running on our local machines.
+
+-------------------------------------------------------------------------------------------------------
+
 ## Final Product
 
 [Click Here to View](https://mark-helotie.github.io/Project3-Team6/)
